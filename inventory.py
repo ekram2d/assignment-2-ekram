@@ -20,3 +20,23 @@ def load_inventor():
          print(f"An error occurred: {e}")
 
 
+def save_inventory(inventory_data):
+    try:
+        inventory_data[104]={
+            'name': 'Laptop', 'price': 800.0, 'quantity': 10
+        }
+        print(inventory_data)
+        file= open('inventory_data.txt', 'w')
+        file.write("ProductID,Name,Price,Quantity\n")
+        for product_id, product_info in inventory_data.items():
+             line = f"{product_id},{product_info['name']},{product_info['price']},{product_info['quantity']}\n"
+             file.write(line)
+        print(f"Inventory data saved to file\n")
+    except Exception as e:
+         print(f"An error occurred: {e}")
+    
+    
+    
+
+
+
