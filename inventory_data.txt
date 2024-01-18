@@ -1,0 +1,4 @@
+ProductID,Name,Price,Quantity
+101,Laptop,800,10
+102,Smartphone,400,15
+103,Tablet,200,20
