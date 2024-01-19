@@ -1,5 +1,4 @@
 ProductID,Name,Price,Quantity
-101,Laptop,800.0,10
-102,Smartphone,400.0,15
+101,Laptop,800.0,8
+102,Smartphone,400.0,12
 103,Tablet,200.0,20
-104,Laptop,800.0,10
