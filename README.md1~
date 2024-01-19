@@ -6,8 +6,8 @@ This is a basic inventory management system implemented in Python. It allows use
 
 1. **Clone the Project:**
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/ekram2d/assignment-2-ekram.git
+   cd assignment-2-ekram
 2.Run the project:
   ```bash
   python main.py
