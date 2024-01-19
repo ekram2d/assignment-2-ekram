@@ -56,11 +56,4 @@ def checkout(cart_data, inventory_data):
 
     print(f"Total: ${total:.2f}")
     
-    if(cart_data):
-        for product_id, item in cart_data.items():
-            inventory_data[product_id]['quantity'] -= item['quantity']
-
-        inventory.save_inventory(inventory_data)
-        cart_data.clear()
-    else:
-        print("empty cart data ")
+  

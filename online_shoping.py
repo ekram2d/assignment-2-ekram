@@ -33,6 +33,8 @@ while True:
 
         elif i == 4:
             shopping_cart.checkout(cart_data, inventory_data)
+        elif i==5:
+            payment.process_payment(10)
 
         elif i == 0:
             break
